@@ -1,0 +1,1250 @@
+{
+  "kpiStats": [
+    {
+      "title": "Total Incidents",
+      "value": 11,
+      "change": "12% vs Apr 2025",
+      "changeType": "decrease",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-rose-400",
+      "iconBgClass": "bg-rose-950/20 border-rose-500/20"
+    },
+    {
+      "title": "LTIFR (Lost Time)",
+      "value": 0,
+      "change": "8% vs Apr 2025",
+      "changeType": "decrease",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-emerald-400",
+      "iconBgClass": "bg-emerald-950/20 border-emerald-500/20"
+    },
+    {
+      "title": "First Aid Cases",
+      "value": 4,
+      "change": "16% vs Apr 2025",
+      "changeType": "decrease",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-amber-400",
+      "iconBgClass": "bg-amber-950/20 border-amber-500/20"
+    },
+    {
+      "title": "Near Miss Track",
+      "value": 6,
+      "change": "11% vs Apr 2025",
+      "changeType": "decrease",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-orange-400",
+      "iconBgClass": "bg-orange-950/20 border-orange-500/20"
+    },
+    {
+      "title": "Safety Compliance",
+      "value": "93%",
+      "change": "3% vs Apr 2025",
+      "changeType": "increase",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-cyan-400",
+      "iconBgClass": "bg-cyan-950/20 border-cyan-500/20"
+    },
+    {
+      "title": "Training Hours",
+      "value": 350,
+      "change": "10% vs Apr 2025",
+      "changeType": "increase",
+      "comparisonText": "vs Apr 2025",
+      "isGoodTrend": "positive",
+      "iconColorClass": "text-indigo-400",
+      "iconBgClass": "bg-indigo-950/20 border-indigo-500/20"
+    }
+  ],
+  "incidentBreakdown": [
+    {
+      "name": "Fatality",
+      "value": 0,
+      "color": "#EF4444"
+    },
+    {
+      "name": "LTI (Lost Time Injury)",
+      "value": 0,
+      "color": "#F97316"
+    },
+    {
+      "name": "First Aid",
+      "value": 4,
+      "color": "#10B981"
+    },
+    {
+      "name": "Near Miss",
+      "value": 6,
+      "color": "#06B6D4"
+    },
+    {
+      "name": "Unsafe Act",
+      "value": 1,
+      "color": "#8B5CF6"
+    },
+    {
+      "name": "Unsafe Cond.",
+      "value": 5,
+      "color": "#EAB308"
+    }
+  ],
+  "incidentTrend": [
+    {
+      "name": "Dec-24",
+      "Fatality": 0,
+      "LTI": 1,
+      "FirstAid": 2,
+      "NearMiss": 4,
+      "UnsafeAct": 5,
+      "UnsafeCond": 1
+    },
+    {
+      "name": "Jan-25",
+      "Fatality": 0,
+      "LTI": 2,
+      "FirstAid": 4,
+      "NearMiss": 5,
+      "UnsafeAct": 3,
+      "UnsafeCond": 2
+    },
+    {
+      "name": "Feb-25",
+      "Fatality": 0,
+      "LTI": 1,
+      "FirstAid": 3,
+      "NearMiss": 5,
+      "UnsafeAct": 2,
+      "UnsafeCond": 1
+    },
+    {
+      "name": "Mar-25",
+      "Fatality": 0,
+      "LTI": 0,
+      "FirstAid": 1,
+      "NearMiss": 7,
+      "UnsafeAct": 1,
+      "UnsafeCond": 1
+    },
+    {
+      "name": "Apr-25",
+      "Fatality": 0,
+      "LTI": 1,
+      "FirstAid": 3,
+      "NearMiss": 9,
+      "UnsafeAct": 2,
+      "UnsafeCond": 3
+    },
+    {
+      "name": "May-26",
+      "Fatality": 0,
+      "LTI": 0,
+      "FirstAid": 4,
+      "NearMiss": 6,
+      "UnsafeAct": 1,
+      "UnsafeCond": 5
+    }
+  ],
+  "msiParameters": [
+    {
+      "title": "Accident Mgmt",
+      "score": "9/10",
+      "percentage": 90
+    },
+    {
+      "title": "Permit to Work (PTW)",
+      "score": "8.5/10",
+      "percentage": 85
+    },
+    {
+      "title": "Electrical Safety",
+      "score": "9.5/10",
+      "percentage": 95
+    },
+    {
+      "title": "PIT / Forklifts",
+      "score": "9/10",
+      "percentage": 90
+    },
+    {
+      "title": "Chemical Safety",
+      "score": "8/10",
+      "percentage": 80
+    },
+    {
+      "title": "Machine Guarding",
+      "score": "8.5/10",
+      "percentage": 85
+    },
+    {
+      "title": "EHS Committee Meetings",
+      "score": "10/10",
+      "percentage": 100
+    },
+    {
+      "title": "Gemba Walks Compliance",
+      "score": "9/10",
+      "percentage": 90
+    },
+    {
+      "title": "EHS Training Compliance",
+      "score": "8.5/10",
+      "percentage": 85
+    },
+    {
+      "title": "Mock Drills Auditing",
+      "score": "9.5/10",
+      "percentage": 95
+    },
+    {
+      "title": "EHS Legal Compliance",
+      "score": "10/10",
+      "percentage": 100
+    },
+    {
+      "title": "Waste Management Plan",
+      "score": "9.5/10",
+      "percentage": 95
+    }
+  ],
+  "msiScore": 93,
+  "gembaData": {
+    "walksCount": 24,
+    "compliance": 92,
+    "mtdObs": 12,
+    "ytdObs": 110,
+    "closurePct": 92,
+    "trend": [
+      {
+        "name": "Dec",
+        "Observations": 8,
+        "Closed": 7
+      },
+      {
+        "name": "Jan",
+        "Observations": 10,
+        "Closed": 9
+      },
+      {
+        "name": "Feb",
+        "Observations": 15,
+        "Closed": 12
+      },
+      {
+        "name": "Mar",
+        "Observations": 11,
+        "Closed": 10
+      },
+      {
+        "name": "Apr",
+        "Observations": 18,
+        "Closed": 16
+      },
+      {
+        "name": "May",
+        "Observations": 12,
+        "Closed": 11
+      }
+    ]
+  },
+  "criticalIssues": [
+    {
+      "id": 1,
+      "issue": "Non-compliance with LOTO / PTW isolation check in Area-C maintenance hangar today",
+      "area": "Chemical Store A",
+      "status": "Open"
+    },
+    {
+      "id": 2,
+      "issue": "Improper storage of flammable chemicals near electrical cabinets",
+      "area": "Work Area C",
+      "status": "Open"
+    }
+  ],
+  "bodyPartInjuries": [
+    {
+      "id": "head",
+      "name": "Head",
+      "count": 15
+    },
+    {
+      "id": "face",
+      "name": "Face",
+      "count": 8
+    },
+    {
+      "id": "hand",
+      "name": "Hand",
+      "count": 4
+    },
+    {
+      "id": "finger",
+      "name": "Finger",
+      "count": 6
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "count": 12
+    },
+    {
+      "id": "foot",
+      "name": "Foot",
+      "count": 10
+    },
+    {
+      "id": "others",
+      "name": "Others (Torso)",
+      "count": 5
+    }
+  ],
+  "fireIncidents": {
+    "value": 0,
+    "change": "Nominal"
+  },
+  "envIncidents": {
+    "value": 0,
+    "change": "Monitored"
+  },
+  "committeeMeetings": [
+    {
+      "label": "Meeting Done?",
+      "val": "Yes",
+      "textClass": "text-emerald-400 font-bold"
+    },
+    {
+      "label": "MOM Shared?",
+      "val": "Yes",
+      "textClass": "text-emerald-400 font-bold"
+    },
+    {
+      "label": "Monthly Points",
+      "val": "15",
+      "textClass": "text-slate-100 font-mono"
+    },
+    {
+      "label": "YTD Points",
+      "val": "55",
+      "textClass": "text-slate-100 font-mono"
+    },
+    {
+      "label": "Monthly Compliance %",
+      "val": "92%",
+      "textClass": "text-emerald-400 font-mono font-bold"
+    },
+    {
+      "label": "YTD Closure %",
+      "val": "92%",
+      "textClass": "text-emerald-400 font-mono font-bold"
+    }
+  ],
+  "trainingSessions": [
+    {
+      "type": "Training Sessions",
+      "sessions": 8,
+      "headcount": 350
+    },
+    {
+      "type": "Awareness Sessions",
+      "sessions": 85,
+      "headcount": 280
+    },
+    {
+      "type": "Induction Sessions",
+      "sessions": 15,
+      "headcount": 75
+    }
+  ],
+  "auditCompliance": [
+    {
+      "title": "Ambulance Audit",
+      "percentage": 82,
+      "colorType": "cyan"
+    },
+    {
+      "title": "Wellness Room",
+      "percentage": 88,
+      "colorType": "emerald"
+    },
+    {
+      "title": "Bus Safety Audit",
+      "percentage": 76,
+      "colorType": "amber"
+    },
+    {
+      "title": "Conveyor Audit",
+      "percentage": 79,
+      "colorType": "purple"
+    }
+  ],
+  "mockDrills": [
+    {
+      "label": "Drill Conducted",
+      "val": "Yes",
+      "valClass": "text-emerald-400 font-bold"
+    },
+    {
+      "label": "Drill Type",
+      "val": "Fire Evacuation",
+      "valClass": "text-slate-300 font-semibold"
+    },
+    {
+      "label": "Observation 1",
+      "val": "Evacuated in 4.2 min",
+      "valClass": "text-slate-400 text-[10px] leading-tight"
+    },
+    {
+      "label": "Observation 2",
+      "val": "Communication delay observed",
+      "valClass": "text-slate-400 text-[10px] leading-tight"
+    }
+  ],
+  "milestones": [
+    "ZERO LTI for 3 consecutive months - 91 LTI-free days achieved",
+    "MSI Score improved by 8 points vs previous month"
+  ],
+  "lastUpdated": "2026-05-22T10:02:31.661Z",
+  "facility": "Kalash NDC",
+  "region": "North",
+  "reportMonth": "May 2026",
+  "reportDate": "2026-05-22",
+  "siteGM": "Naman",
+  "siteLead": "Naman",
+  "ehsLead": "Sarthak Jain",
+  "records": [
+    {
+      "facility": "Kalash NDC",
+      "region": "North",
+      "reportMonth": "May 2026",
+      "reportDate": "2026-05-22",
+      "siteGM": "Naman",
+      "siteLead": "Naman",
+      "ehsLead": "Sarthak Jain",
+      "kpiStats": [
+        {
+          "title": "Total Incidents",
+          "value": 11,
+          "change": "12% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-rose-400",
+          "iconBgClass": "bg-rose-950/20 border-rose-500/20"
+        },
+        {
+          "title": "LTIFR (Lost Time)",
+          "value": 0,
+          "change": "8% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-emerald-400",
+          "iconBgClass": "bg-emerald-950/20 border-emerald-500/20"
+        },
+        {
+          "title": "First Aid Cases",
+          "value": 4,
+          "change": "16% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-amber-400",
+          "iconBgClass": "bg-amber-950/20 border-amber-500/20"
+        },
+        {
+          "title": "Near Miss Track",
+          "value": 6,
+          "change": "11% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-orange-400",
+          "iconBgClass": "bg-orange-950/20 border-orange-500/20"
+        },
+        {
+          "title": "Safety Compliance",
+          "value": "93%",
+          "change": "3% vs Apr 2025",
+          "changeType": "increase",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-cyan-400",
+          "iconBgClass": "bg-cyan-950/20 border-cyan-500/20"
+        },
+        {
+          "title": "Training Hours",
+          "value": 350,
+          "change": "10% vs Apr 2025",
+          "changeType": "increase",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-indigo-400",
+          "iconBgClass": "bg-indigo-950/20 border-indigo-500/20"
+        }
+      ],
+      "incidentBreakdown": [
+        {
+          "name": "Fatality",
+          "value": 0,
+          "color": "#EF4444"
+        },
+        {
+          "name": "LTI (Lost Time Injury)",
+          "value": 0,
+          "color": "#F97316"
+        },
+        {
+          "name": "First Aid",
+          "value": 4,
+          "color": "#10B981"
+        },
+        {
+          "name": "Near Miss",
+          "value": 6,
+          "color": "#06B6D4"
+        },
+        {
+          "name": "Unsafe Act",
+          "value": 1,
+          "color": "#8B5CF6"
+        },
+        {
+          "name": "Unsafe Cond.",
+          "value": 5,
+          "color": "#EAB308"
+        }
+      ],
+      "incidentTrend": [
+        {
+          "name": "Dec-24",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 2,
+          "NearMiss": 4,
+          "UnsafeAct": 5,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Jan-25",
+          "Fatality": 0,
+          "LTI": 2,
+          "FirstAid": 4,
+          "NearMiss": 5,
+          "UnsafeAct": 3,
+          "UnsafeCond": 2
+        },
+        {
+          "name": "Feb-25",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 3,
+          "NearMiss": 5,
+          "UnsafeAct": 2,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Mar-25",
+          "Fatality": 0,
+          "LTI": 0,
+          "FirstAid": 1,
+          "NearMiss": 7,
+          "UnsafeAct": 1,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Apr-25",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 3,
+          "NearMiss": 9,
+          "UnsafeAct": 2,
+          "UnsafeCond": 3
+        },
+        {
+          "name": "May-26",
+          "Fatality": 0,
+          "LTI": 0,
+          "FirstAid": 4,
+          "NearMiss": 6,
+          "UnsafeAct": 1,
+          "UnsafeCond": 5
+        }
+      ],
+      "msiParameters": [
+        {
+          "title": "Accident Mgmt",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "Permit to Work (PTW)",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "Electrical Safety",
+          "score": "9.5/10",
+          "percentage": 95
+        },
+        {
+          "title": "PIT / Forklifts",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "Chemical Safety",
+          "score": "8/10",
+          "percentage": 80
+        },
+        {
+          "title": "Machine Guarding",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "EHS Committee Meetings",
+          "score": "10/10",
+          "percentage": 100
+        },
+        {
+          "title": "Gemba Walks Compliance",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "EHS Training Compliance",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "Mock Drills Auditing",
+          "score": "9.5/10",
+          "percentage": 95
+        },
+        {
+          "title": "EHS Legal Compliance",
+          "score": "10/10",
+          "percentage": 100
+        },
+        {
+          "title": "Waste Management Plan",
+          "score": "9.5/10",
+          "percentage": 95
+        }
+      ],
+      "msiScore": 93,
+      "gembaData": {
+        "walksCount": 24,
+        "compliance": 92,
+        "mtdObs": 12,
+        "ytdObs": 110,
+        "closurePct": 92,
+        "trend": [
+          {
+            "name": "Dec",
+            "Observations": 8,
+            "Closed": 7
+          },
+          {
+            "name": "Jan",
+            "Observations": 10,
+            "Closed": 9
+          },
+          {
+            "name": "Feb",
+            "Observations": 15,
+            "Closed": 12
+          },
+          {
+            "name": "Mar",
+            "Observations": 11,
+            "Closed": 10
+          },
+          {
+            "name": "Apr",
+            "Observations": 18,
+            "Closed": 16
+          },
+          {
+            "name": "May",
+            "Observations": 12,
+            "Closed": 11
+          }
+        ]
+      },
+      "criticalIssues": [
+        {
+          "id": 1,
+          "issue": "Non-compliance with LOTO / PTW isolation check in Area-C maintenance hangar today",
+          "area": "Chemical Store A",
+          "status": "Open"
+        },
+        {
+          "id": 2,
+          "issue": "Improper storage of flammable chemicals near electrical cabinets",
+          "area": "Work Area C",
+          "status": "Open"
+        }
+      ],
+      "bodyPartInjuries": [
+        {
+          "id": "head",
+          "name": "Head",
+          "count": 15
+        },
+        {
+          "id": "face",
+          "name": "Face",
+          "count": 8
+        },
+        {
+          "id": "hand",
+          "name": "Hand",
+          "count": 4
+        },
+        {
+          "id": "finger",
+          "name": "Finger",
+          "count": 6
+        },
+        {
+          "id": "leg",
+          "name": "Leg",
+          "count": 12
+        },
+        {
+          "id": "foot",
+          "name": "Foot",
+          "count": 10
+        },
+        {
+          "id": "others",
+          "name": "Others (Torso)",
+          "count": 5
+        }
+      ],
+      "fireIncidents": {
+        "value": 0,
+        "change": "Nominal"
+      },
+      "envIncidents": {
+        "value": 0,
+        "change": "Monitored"
+      },
+      "committeeMeetings": [
+        {
+          "label": "Meeting Done?",
+          "val": "Yes",
+          "textClass": "text-emerald-400 font-bold"
+        },
+        {
+          "label": "MOM Shared?",
+          "val": "Yes",
+          "textClass": "text-emerald-400 font-bold"
+        },
+        {
+          "label": "Monthly Points",
+          "val": "15",
+          "textClass": "text-slate-100 font-mono"
+        },
+        {
+          "label": "YTD Points",
+          "val": "55",
+          "textClass": "text-slate-100 font-mono"
+        },
+        {
+          "label": "Monthly Compliance %",
+          "val": "92%",
+          "textClass": "text-emerald-400 font-mono font-bold"
+        },
+        {
+          "label": "YTD Closure %",
+          "val": "92%",
+          "textClass": "text-emerald-400 font-mono font-bold"
+        }
+      ],
+      "trainingSessions": [
+        {
+          "type": "Training Sessions",
+          "sessions": 8,
+          "headcount": 350
+        },
+        {
+          "type": "Awareness Sessions",
+          "sessions": 85,
+          "headcount": 280
+        },
+        {
+          "type": "Induction Sessions",
+          "sessions": 15,
+          "headcount": 75
+        }
+      ],
+      "auditCompliance": [
+        {
+          "title": "Ambulance Audit",
+          "percentage": 82,
+          "colorType": "cyan"
+        },
+        {
+          "title": "Wellness Room",
+          "percentage": 88,
+          "colorType": "emerald"
+        },
+        {
+          "title": "Bus Safety Audit",
+          "percentage": 76,
+          "colorType": "amber"
+        },
+        {
+          "title": "Conveyor Audit",
+          "percentage": 79,
+          "colorType": "purple"
+        }
+      ],
+      "mockDrills": [
+        {
+          "label": "Drill Conducted",
+          "val": "Yes",
+          "valClass": "text-emerald-400 font-bold"
+        },
+        {
+          "label": "Drill Type",
+          "val": "Fire Evacuation",
+          "valClass": "text-slate-300 font-semibold"
+        },
+        {
+          "label": "Observation 1",
+          "val": "Evacuated in 4.2 min",
+          "valClass": "text-slate-400 text-[10px] leading-tight"
+        },
+        {
+          "label": "Observation 2",
+          "val": "Communication delay observed",
+          "valClass": "text-slate-400 text-[10px] leading-tight"
+        }
+      ],
+      "milestones": [
+        "ZERO LTI for 3 consecutive months - 91 LTI-free days achieved",
+        "MSI Score improved by 8 points vs previous month"
+      ],
+      "lastUpdated": "2026-05-22T10:02:31.658Z"
+    },
+    {
+      "facility": "Refinery Unit 1",
+      "region": "South",
+      "reportMonth": "May 2026",
+      "reportDate": "2026-05-22",
+      "siteGM": "Site GM South",
+      "siteLead": "Site Lead South",
+      "ehsLead": "Rajesh Kumar",
+      "kpiStats": [
+        {
+          "title": "Total Incidents",
+          "value": 17,
+          "change": "12% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-rose-400",
+          "iconBgClass": "bg-rose-950/20 border-rose-500/20"
+        },
+        {
+          "title": "LTIFR (Lost Time)",
+          "value": 1,
+          "change": "8% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-emerald-400",
+          "iconBgClass": "bg-emerald-950/20 border-emerald-500/20"
+        },
+        {
+          "title": "First Aid Cases",
+          "value": 6,
+          "change": "16% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-amber-400",
+          "iconBgClass": "bg-amber-950/20 border-amber-500/20"
+        },
+        {
+          "title": "Near Miss Track",
+          "value": 8,
+          "change": "11% vs Apr 2025",
+          "changeType": "decrease",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-orange-400",
+          "iconBgClass": "bg-orange-950/20 border-orange-500/20"
+        },
+        {
+          "title": "Safety Compliance",
+          "value": "86%",
+          "change": "3% vs Apr 2025",
+          "changeType": "increase",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-cyan-400",
+          "iconBgClass": "bg-cyan-950/20 border-cyan-500/20"
+        },
+        {
+          "title": "Training Hours",
+          "value": 210,
+          "change": "10% vs Apr 2025",
+          "changeType": "increase",
+          "comparisonText": "vs Apr 2025",
+          "isGoodTrend": "positive",
+          "iconColorClass": "text-indigo-400",
+          "iconBgClass": "bg-indigo-950/20 border-indigo-500/20"
+        }
+      ],
+      "incidentBreakdown": [
+        {
+          "name": "Fatality",
+          "value": 0,
+          "color": "#EF4444"
+        },
+        {
+          "name": "LTI (Lost Time Injury)",
+          "value": 1,
+          "color": "#F97316"
+        },
+        {
+          "name": "First Aid",
+          "value": 6,
+          "color": "#10B981"
+        },
+        {
+          "name": "Near Miss",
+          "value": 8,
+          "color": "#06B6D4"
+        },
+        {
+          "name": "Unsafe Act",
+          "value": 2,
+          "color": "#8B5CF6"
+        },
+        {
+          "name": "Unsafe Cond.",
+          "value": 7,
+          "color": "#EAB308"
+        }
+      ],
+      "incidentTrend": [
+        {
+          "name": "Dec-24",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 2,
+          "NearMiss": 4,
+          "UnsafeAct": 5,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Jan-25",
+          "Fatality": 0,
+          "LTI": 2,
+          "FirstAid": 4,
+          "NearMiss": 5,
+          "UnsafeAct": 3,
+          "UnsafeCond": 2
+        },
+        {
+          "name": "Feb-25",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 3,
+          "NearMiss": 5,
+          "UnsafeAct": 2,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Mar-25",
+          "Fatality": 0,
+          "LTI": 0,
+          "FirstAid": 1,
+          "NearMiss": 7,
+          "UnsafeAct": 1,
+          "UnsafeCond": 1
+        },
+        {
+          "name": "Apr-25",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 3,
+          "NearMiss": 9,
+          "UnsafeAct": 2,
+          "UnsafeCond": 3
+        },
+        {
+          "name": "May-26",
+          "Fatality": 0,
+          "LTI": 1,
+          "FirstAid": 6,
+          "NearMiss": 8,
+          "UnsafeAct": 2,
+          "UnsafeCond": 7
+        }
+      ],
+      "msiParameters": [
+        {
+          "title": "Accident Mgmt",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "Permit to Work (PTW)",
+          "score": "8/10",
+          "percentage": 80
+        },
+        {
+          "title": "Electrical Safety",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "PIT / Forklifts",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "Chemical Safety",
+          "score": "7.5/10",
+          "percentage": 75
+        },
+        {
+          "title": "Machine Guarding",
+          "score": "8/10",
+          "percentage": 80
+        },
+        {
+          "title": "EHS Committee Meetings",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "Gemba Walks Compliance",
+          "score": "8.5/10",
+          "percentage": 85
+        },
+        {
+          "title": "EHS Training Compliance",
+          "score": "8/10",
+          "percentage": 80
+        },
+        {
+          "title": "Mock Drills Auditing",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "EHS Legal Compliance",
+          "score": "9/10",
+          "percentage": 90
+        },
+        {
+          "title": "Waste Management Plan",
+          "score": "8.5/10",
+          "percentage": 85
+        }
+      ],
+      "msiScore": 86,
+      "gembaData": {
+        "walksCount": 24,
+        "compliance": 85,
+        "mtdObs": 12,
+        "ytdObs": 110,
+        "closurePct": 85,
+        "trend": [
+          {
+            "name": "Dec",
+            "Observations": 8,
+            "Closed": 7
+          },
+          {
+            "name": "Jan",
+            "Observations": 10,
+            "Closed": 9
+          },
+          {
+            "name": "Feb",
+            "Observations": 15,
+            "Closed": 12
+          },
+          {
+            "name": "Mar",
+            "Observations": 11,
+            "Closed": 10
+          },
+          {
+            "name": "Apr",
+            "Observations": 18,
+            "Closed": 16
+          },
+          {
+            "name": "May",
+            "Observations": 12,
+            "Closed": 10
+          }
+        ]
+      },
+      "criticalIssues": [
+        {
+          "id": 1,
+          "issue": "Generator panel minor exhaust leakage detected.",
+          "area": "Chemical Store A",
+          "status": "Open"
+        }
+      ],
+      "bodyPartInjuries": [
+        {
+          "id": "head",
+          "name": "Head",
+          "count": 4
+        },
+        {
+          "id": "face",
+          "name": "Face",
+          "count": 3
+        },
+        {
+          "id": "hand",
+          "name": "Hand",
+          "count": 2
+        },
+        {
+          "id": "finger",
+          "name": "Finger",
+          "count": 9
+        },
+        {
+          "id": "leg",
+          "name": "Leg",
+          "count": 8
+        },
+        {
+          "id": "foot",
+          "name": "Foot",
+          "count": 5
+        },
+        {
+          "id": "others",
+          "name": "Others (Torso)",
+          "count": 7
+        }
+      ],
+      "fireIncidents": {
+        "value": 1,
+        "change": "Active alert"
+      },
+      "envIncidents": {
+        "value": 1,
+        "change": "Monitored"
+      },
+      "committeeMeetings": [
+        {
+          "label": "Meeting Done?",
+          "val": "Yes",
+          "textClass": "text-emerald-400 font-bold"
+        },
+        {
+          "label": "MOM Shared?",
+          "val": "No",
+          "textClass": "text-rose-400 font-bold"
+        },
+        {
+          "label": "Monthly Points",
+          "val": "10",
+          "textClass": "text-slate-100 font-mono"
+        },
+        {
+          "label": "YTD Points",
+          "val": "40",
+          "textClass": "text-slate-100 font-mono"
+        },
+        {
+          "label": "Monthly Compliance %",
+          "val": "85%",
+          "textClass": "text-emerald-400 font-mono font-bold"
+        },
+        {
+          "label": "YTD Closure %",
+          "val": "85%",
+          "textClass": "text-emerald-400 font-mono font-bold"
+        }
+      ],
+      "trainingSessions": [
+        {
+          "type": "Training Sessions",
+          "sessions": 5,
+          "headcount": 210
+        },
+        {
+          "type": "Awareness Sessions",
+          "sessions": 80,
+          "headcount": 280
+        },
+        {
+          "type": "Induction Sessions",
+          "sessions": 15,
+          "headcount": 75
+        }
+      ],
+      "auditCompliance": [
+        {
+          "title": "Ambulance Audit",
+          "percentage": 82,
+          "colorType": "cyan"
+        },
+        {
+          "title": "Wellness Room",
+          "percentage": 88,
+          "colorType": "emerald"
+        },
+        {
+          "title": "Bus Safety Audit",
+          "percentage": 76,
+          "colorType": "amber"
+        },
+        {
+          "title": "Conveyor Audit",
+          "percentage": 79,
+          "colorType": "purple"
+        }
+      ],
+      "mockDrills": [
+        {
+          "label": "Drill Conducted",
+          "val": "Yes",
+          "valClass": "text-emerald-400 font-bold"
+        },
+        {
+          "label": "Drill Type",
+          "val": "Fire Evacuation",
+          "valClass": "text-slate-300 font-semibold"
+        },
+        {
+          "label": "Observation 1",
+          "val": "Evacuated in 4.2 min",
+          "valClass": "text-slate-400 text-[10px] leading-tight"
+        },
+        {
+          "label": "Observation 2",
+          "val": "Communication delay observed",
+          "valClass": "text-slate-400 text-[10px] leading-tight"
+        }
+      ],
+      "milestones": [
+        "ZERO LTI for 3 consecutive months - 91 LTI-free days achieved",
+        "MSI Score improved by 8 points vs previous month"
+      ],
+      "lastUpdated": "2026-05-22T10:02:31.661Z"
+    }
+  ]
+}
