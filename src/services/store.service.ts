@@ -3,11 +3,16 @@
  * Seeds initial mock data on startup and manages SSE client tracking.
  */
 
+import fs from "fs";
+import path from "path";
 import { DashboardData, SSEClient } from "../types/index.js";
 import { broadcast } from "./broadcast.service.js";
 
 // Global active SSE clients registry
 export const sseClients = new Set<SSEClient>();
+
+// Local state file path for telemetry persistence
+const STATE_FILE_PATH = path.join(process.cwd(), "ehs_dashboard_state.json");
 
 // Global latest EHS Dashboard data cache
 export let latestDashboardData: DashboardData | null = null;
@@ -50,6 +55,19 @@ export function updateDashboardData(newData: Partial<DashboardData>): DashboardD
     ...newData,
     lastUpdated: new Date().toISOString()
   };
+
+  // Persist state to local storage asynchronously
+  try {
+    fs.writeFile(STATE_FILE_PATH, JSON.stringify(latestDashboardData, null, 2), "utf8", (err) => {
+      if (err) {
+        console.error("[Store] Failed to write EHS persisted state:", err);
+      } else {
+        console.log(`[Store] Telemetry state successfully persisted to disk: ${STATE_FILE_PATH}`);
+      }
+    });
+  } catch (err) {
+    console.error("[Store] Async disk write operation threw exception:", err);
+  }
 
   // Debounced/throttled broadcast to prevent UI rendering storms under consecutive sheet edits
   if (broadcastDebounceTimer) {
@@ -231,5 +249,17 @@ export function getInitialMockData(): DashboardData {
   };
 }
 
-// Automatically seed cache on module load
-latestDashboardData = getInitialMockData();
+// Automatically seed cache or restore persisted data on module load
+try {
+  if (fs.existsSync(STATE_FILE_PATH)) {
+    const rawData = fs.readFileSync(STATE_FILE_PATH, "utf8");
+    latestDashboardData = JSON.parse(rawData);
+    console.log(`[Store] Successfully restored persisted EHS state from: ${STATE_FILE_PATH}`);
+  } else {
+    latestDashboardData = getInitialMockData();
+    console.log("[Store] No persisted EHS state found. Initialized with default mock seed data.");
+  }
+} catch (error) {
+  console.error("[Store] Failed to restore persisted state on load:", error);
+  latestDashboardData = getInitialMockData();
+}

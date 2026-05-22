@@ -105,6 +105,14 @@ export interface DashboardData {
   mockDrills: MockDrillRow[];
   milestones: string[];
   lastUpdated: string;
+  facility?: string;
+  region?: string;
+  reportMonth?: string;
+  reportDate?: string;
+  siteGM?: string;
+  siteLead?: string;
+  ehsLead?: string;
+  records?: DashboardData[];
 }
 
 /**

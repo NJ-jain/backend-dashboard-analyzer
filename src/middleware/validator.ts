@@ -48,7 +48,8 @@ export function validatePayload(payload: unknown): ValidationResult {
     "msiScore", "gembaData", "criticalIssues", "bodyPartInjuries", 
     "fireIncidents", "envIncidents", "committeeMeetings", 
     "trainingSessions", "auditCompliance", "mockDrills", "milestones",
-    "lastUpdated"
+    "lastUpdated", "facility", "region", "reportMonth", "reportDate",
+    "siteGM", "siteLead", "ehsLead", "records"
   ];
 
   const payloadKeys = Object.keys(obj);
